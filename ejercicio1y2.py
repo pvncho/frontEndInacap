@@ -5,3 +5,5 @@ while cont <= numeroNotas:
     notas+=int(input(f"ingrese nota {cont}\n"))
     cont+=1
 print(f"el promedio es {notas/numeroNotas}")
+
+
