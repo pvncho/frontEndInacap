@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+    
+}
+

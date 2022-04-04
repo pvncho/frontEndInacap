@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formularios</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/201935b6f0.js" crossorigin="anonymous"></script>
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="content">
+        <h1 class="logo">Formulario de registro</h1>
+    </div>
+
+    <div class="contactWrapper">
+        <form action="">
+            <p>
+                <label>Rut</label>
+                <input type="number" name="Rut" required><i class="fa-regular fa-star"></i>
+            </p>
+            <p>
+                <label>Nombres</label>
+                <input type="text" name="Nombre" required><i class="fa-regular fa-star"></i>
+            </p>
+            <p>
+                <label>Apellidos</label>
+                <input type="text" name="Nombre" required><i class="fa-regular fa-star"></i>
+            </p>
+            <p>Genero:
+                <input type="radio" name="hm" value="h" required>Hombre
+                <input type="radio" name="hm" value="m" required>Mujer
+            </p>
+            <p>Fecha de nacimiento: 
+                <input type="date" name="fecha de nacimiento" required>
+            </p>
+
+            <p>
+                Nacionalidad
+                <select name="pais">
+                <option value="1">Argentina</option>
+                <option value="2">España</option>
+                <option value="3">México</option>
+                <option value="4">Guatemala</option>
+                <option value="5">Honduras</option>
+                <option value="7">El Salvador</option>
+                <option value="8">Venezuela</option>
+                <option value="9">Colombia</option>
+                <option value="10">Cuba</option>
+                <option value="11">Bolivia</option>
+                <option value="13">Perú</option>
+                <option value="14">Ecuador</option>
+                <option value="15">Paraguay</option>
+                <option value="16">Uruguay</option>
+                <option value="17">Chile</option>
+                </select>
+            </p>
+            <p>
+                <label>Intereses</label>
+                <textarea name="Intereses" rows="3"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="casilla">Recibir Noticias
+            </p>
+            <p>
+                <button type="submit">Guardar</button>
+            </p>
+
+
+        </form>
+    </div>
+
+</body>
+</html>
